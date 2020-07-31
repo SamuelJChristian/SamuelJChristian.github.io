@@ -1,4 +1,0 @@
-document.getElementById('game-table')
-{
-    
-}
