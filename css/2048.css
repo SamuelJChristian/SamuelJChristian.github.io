@@ -1,9 +1,13 @@
 #new-game
 {
-    padding-left: 10px;
-    background-color: gold;
+    margin: auto;
+    width: auto;
+    border:3px solid goldenrod;
+    padding: auto;
+
+    background-color:5px solid gold;
     color: white;
-    border: goldenrod;
+
 }
 
 #instructions
