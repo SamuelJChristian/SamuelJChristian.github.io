@@ -4,11 +4,17 @@
     <script src="js/2048.js"></script>
 <body>
     <h1>2048</h1>
-    <div id="drop-down">Dropdown</div>
-    <div id="new-game">New Game</div>
+    <div>
+        <input id="drop-down">Enter dimensions of the grid (format as 'a x b')</input>
+        x
+        <input id="drop-down">Enter dimensions of the grid (format as 'a x b')</input>
+    </div>
+<div id="new-game">New Game</div>
     
-    <div id="current-score">Score</div>
-    <div id="best-score">Best</div>
+    <div id="current-score">Score<p>0</p></div>
+    <div id="best-score">Best<p>0</p></div>
+
+    <div id="game-table"></div>
 
     <div id="instructions">
         <div>Goal: Use left and right arrow keys to</div>
@@ -16,6 +22,6 @@
         <div>double its values!</div>
     </div>
     
-    <div id="game-table"></div>
+
 </body>
 </html>
