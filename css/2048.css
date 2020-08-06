@@ -1,3 +1,9 @@
+h1
+{
+    margin:auto;
+    padding: 10px 450px;
+}
+
 #new-game
 {
     margin: auto;
@@ -9,6 +15,16 @@
     color: white;
 
     text-align:center;
+}
+
+#current-score, #best-score
+{
+    border: 5px darkgrey;
+    
+    background-color: grey;
+    color: white;
+
+    text-align: center;
 }
 
 #instructions
