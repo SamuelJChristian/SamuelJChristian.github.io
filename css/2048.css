@@ -7,8 +7,9 @@ title
 #new-game
 {
     padding-left: 10px;
-    background-color: yellow;
+    background-color: gold;
     color: white;
+    border: goldenrod;
 }
 
 #instructions
