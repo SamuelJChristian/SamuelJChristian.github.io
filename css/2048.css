@@ -1,3 +1,15 @@
+#new-game
+{
+    padding-left: 10px;
+    background-color: yellow;
+    color: white;
+}
+
+#instructions
+{
+    color: black;
+}
+
 #dropdown, #new-game
 {
     margin: 0 auto;
@@ -5,5 +17,5 @@
 
 #game-table
 {
-    color: grey;
+    color: darkgray;
 }
