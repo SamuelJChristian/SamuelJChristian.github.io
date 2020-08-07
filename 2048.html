@@ -3,7 +3,12 @@
     <link rel="stylesheet" type="text/css" href="css/2048.css">
     <script src="js/2048.js"></script>
 <body>
+
     <h1>2048</h1>
+    
+    <div id="current-score">Score<p>0</p></div>
+    <div id="best-score">Best<p>0</p></div>
+    
     <div>
         Enter dimensions of the grid (format as 'a x b'):
         <p>
@@ -12,19 +17,16 @@
             <input id="drop-down"></input>
         </p>
     </div>
-<div id="new-game">New Game</div>
-    
-    <div id="current-score">Score<p>0</p></div>
-    <div id="best-score">Best<p>0</p></div>
 
+    <div id="new-game">New Game</div>
+    
     <div id="game-table"></div>
 
     <div id="instructions">
         <div>Goal: Use left and right arrow keys to</div>
         <div>move and merge like tiles to get new tiles</div>
         <div>double its values!</div>
-    </div>
-    
+    </div> 
 
 </body>
 </html>
