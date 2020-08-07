@@ -1,7 +1,12 @@
 h1
 {
     margin:auto;
-    padding: auto;
+    padding:auto;
+}
+
+#drop-down
+{
+    width:10%;
 }
 
 #new-game
@@ -10,10 +15,8 @@ h1
     width: 10%;
     border:3px solid goldenrod;
     padding: 15px;
-
     background-color: gold;
     color: white;
-
     text-align:center;
 }
 
@@ -40,12 +43,12 @@ h1
     text-align: center;
 }
 
-#dropdown, #new-game
-{
-    margin: 0 auto;
-}
-
 #game-table
 {
+    margin: auto;
+    width: 50%;
+    border: none;
+    padding: auto;
+    
     background-color: darkgray;
 }
