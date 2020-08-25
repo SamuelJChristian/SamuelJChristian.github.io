@@ -4,23 +4,20 @@
     <script src="js/2048.js"></script>
 <body>
 
-    <div>
+    <div id="first-row">
         <h1>2048</h1>
-        <div id="current-score"><h1>Score<p>0</p></h1></div>
-        <div id="best-score"><h1>Best<p>0</p></h1></div>
+        <div id="current-score">SCORE<p id="p-current">0</p></div>
+        <div id="best-score">BEST<p id="p-best">0</p></div>
     </div>
 
-    <div>
-        Enter dimensions of the grid (format as 'a x b'):
-        <p>
-            <input id="drop-down"></input>
+    <p id="second-row">
+        Enter dimensions of the grid (ex. <strong>'8 x 10'</strong>):
+            <input id="drop-down-A"></input>
             x
-            <input id="drop-down"></input>
-        </p>
-    </div>
+            <input id="drop-down-B"></input>
+        <button type="button" id="new-game">New Game</button>
+    </p>
 
-    <div id="new-game">New Game</div>
-    
     <div id="game-table">Table</div>
 
     <div id="instructions">
