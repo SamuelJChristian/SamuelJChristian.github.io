@@ -37,6 +37,11 @@ h1
     font-weight: bold;
 }
 
+#p-best, #p-current
+{
+    font-size: 15px;
+}
+
 #drop-down-A, #drop-down-B
 {
     width:5%;
