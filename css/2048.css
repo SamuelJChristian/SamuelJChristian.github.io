@@ -13,21 +13,22 @@ h1
 
 #current-score, #best-score
 {
-    margin: none;
-    width: 50%;
-    height: 50px;
+    margin-top: 30px;
+    width: 19%;
+    height: 20px;
     border: 5px darkgrey;
     padding: 10px;
 
-    position: relative;
-    bottom: 10px;
+    position: auto;
+    bottom: auto;
 
     background-color: #aaa9a996;
     color: #fff8f896;
 
+    bottom: 200px;
     text-align: center;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 #current-score, #best-score
