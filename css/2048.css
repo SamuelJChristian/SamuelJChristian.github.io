@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Big Space';
+    src: url(../2048/BigSpace-rPKx.ttf);
+}
+
 h1
 {
     font-size: 3em;
